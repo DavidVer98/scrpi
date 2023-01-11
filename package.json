@@ -34,6 +34,14 @@
   "license": "MIT",
 
   "jest": {
+    "collectCoverageFrom": [
+      "src/api/**/*.js"
+    ],
+    "coverageReporters": [
+      "clover",
+      "json",
+      "text"
+    ],
     "testPathIgnorePatterns": [
       "/node_modules/",
       ".tmp",
